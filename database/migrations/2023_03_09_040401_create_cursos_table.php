@@ -16,7 +16,8 @@ return new class extends Migration
         Schema::create('cursos', function (Blueprint $table) {
             $table->id();
             $table->string('nombre_curso');
-            $table->id('kit_robotica');
+            //el kit robotica debe ser un bigint pero no lo pude asignar desde laravel, asi que lo hice en phpmyadmin
+            $table->string('kit_robotica');
             $table->timestamps();
 
           

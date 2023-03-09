@@ -15,7 +15,8 @@ return new class extends Migration
     {
         Schema::create('grupos', function (Blueprint $table) {
             $table->id();
-            $table->id('cursos_grupo');
+            //el curso del grupo debe ser un bigint pero no lo pude asignar desde laravel, asi que lo hice en phpmyadmin
+            $table->string('cursos_grupo');
             $table->timestamps();
 
      

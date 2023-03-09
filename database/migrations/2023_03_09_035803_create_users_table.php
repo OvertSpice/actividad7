@@ -19,7 +19,8 @@ return new class extends Migration
             $table->string('correo_usuario');
             $table->string('contrasena_usuario');
             $table->string('rol_usuario');
-            $table->id('grupo_usuario');
+            //el grupo usuario debe ser un bigint pero no lo pude asignar desde laravel, asi que lo hice en phpmyadmin
+            $table->string('grupo_usuario');
             $table->timestamps();
 
             //$table->foreign('grupo_usuario')->references('id')->on('grupos');
