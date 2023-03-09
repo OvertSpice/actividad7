@@ -1,3 +1,15 @@
+#INFO PROYECTO:
+1.	Nombre del proyecto:
+Actividad7
+
+2.	Descripción del proyecto:
+Base de datos de una escuela de robotica con usuarios, grupos, cursos y kits; relacionados entre ellos.
+
+3.	Gráfico ER:
+![DB Actv7](https://user-images.githubusercontent.com/114519283/224129214-edd157a8-65ac-45a3-ae91-b94a4254abba.PNG)
+
+
+#LARAVEL:
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
