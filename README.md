@@ -6,6 +6,7 @@ Actividad7
 Base de datos de una escuela de robotica con usuarios, grupos, cursos y kits; relacionados entre ellos.
 
 3.	Gráfico ER:
+
 ![DB Actv7](https://user-images.githubusercontent.com/114519283/224129214-edd157a8-65ac-45a3-ae91-b94a4254abba.PNG)
 
 
