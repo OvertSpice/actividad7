@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('correo_usuario');
             $table->string('contrasena_usuario');
             $table->string('rol_usuario');
-            $table->string('grupo_usuario');
+            $table->id('grupo_usuario');
             $table->timestamps();
 
             //$table->foreign('grupo_usuario')->references('id')->on('grupos');
